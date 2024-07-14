@@ -1,0 +1,33 @@
+.socials {
+    display: flex;
+    color: blue;
+}
+
+u {
+    font-family: "Monoton", sans-serif;
+    color: blue;
+    font-weight: 400pt;
+    font-style: normal;
+    border-radius: 200%;
+    background-color:greenyellow;
+}
+
+.fancy {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+img {
+    width: 90%;
+    display: grid;
+}
+
+.thedev {
+    width: 10%;
+    display: grid;
+}
+
+body {
+    background-color: darkgray;
+}
+

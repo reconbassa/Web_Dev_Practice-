@@ -1,0 +1,14 @@
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: grid;
+    padding: 5%;
+}
+
+.socialmedia {
+    display: flex;
+    padding-top: 30%;
+}
