@@ -1,10 +1,13 @@
+/* Will be editing the CSS in order to better address responsiveness*/
 body {
+   /* This will be addressed first, and flex may be used instead of grid. 
     display: grid;
     background-color: #87d688;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: 50%;*/
+    
 }
 
 holder {
