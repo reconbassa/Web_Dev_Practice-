@@ -1,187 +1,24 @@
-body {
-    display: grid;
-    
-}
-/*Will use flex to change how the anime's are displayed*/
-#fstBox {
+/* Add this CSS */
+.fstBox {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-holder {
-    text-align: center;
-}
-
-ul {
+.navpage ul {
     display: flex;
     list-style-type: none;
-    width: 30%;
-    display: table;
-    margin: 0 auto;
     padding: 0;
+    margin: 0;
 }
 
-h2 {
-    text-align: center;
-    
+.navpage li {
+    margin: 0 15px; /* Adjust the spacing between list items as needed */
 }
 
-blockquote {
-    text-align: center;
-}
-    
-.box{
-    display: flex;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    font-size: 30%;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-  
-.red{
-    background-color: red;
-}
-  
-.green{
-    background-color: green;
-}
-  
-.yellow{
-    background-color: yellow;
+.navpage a {
+    text-decoration: none;
+    color: inherit;
 }
 
-    
-h1 {
-   
-    text-align: center;
-}
-
-.fon1 {
-    font-family: "Monoton", sans-serif;
-    color: blueviolet;
-    font-weight: 400%;
-    font-style: normal;
-    border-radius: 200%;
-    background-color:greenyellow;
-    
-}
-
-.fon3 {
-    font-family: "Jacquard 24 Charted", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    position: relative;
-    left: 130%;
-    border-radius: 200%;
-    background-color:greenyellow;
-}
-
-.fon2 {
-    font-family: "Alfa Slab One", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-style: normal;
-    border-radius: 200%;
-    color:blueviolet ;
-    background-color:greenyellow;
-}
-
-.profilebox {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    transform: translateX(-30px);
-
-}
-
-.pdefined {
-    display: flex;
-    width: 150px;
-    height: 150px;
-}
-
-profile {
-    background-blend-mode: lighten;
-}
-
-.image {
-    display: flex;
-    width: 130%; /* Make the image fill the entire width of the box */
-    height: 130%; /* Make the image fill the entire height of the box */
-    object-fit: fill; /* Scale the image while preserving its aspect ratio to cover the entire box */
-}
-
-.imaged {
-    display: flex;
-    width: 300%; /* Make the image fill the entire width of the box */
-    height: 200%; /* Make the image fill the entire height of the box */
-    object-fit: fill; /* Scale the image while preserving its aspect ratio to cover the entire box */
-}
-.container{
-    display: grid;
-    grid-template-columns: repeat(3, 100px); /* Example grid with 3 columns, adjust as needed */
-    grid-gap: 130px; /* Example gap between grid items, adjust as needed */
-    transform: translateX(-45px); /* Move the grid 50 pixels to the left */  
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Set the height of the outer container, adjust as needed */
-}
-
-.contained{
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 100px); /* Example grid with 3 columns, adjust as needed */
-    grid-gap: 130px; /* Example gap between grid items, adjust as needed */
-    transform: translateX(-30px); /* Move the grid 50 pixels to the left */  
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Set the height of the outer container, adjust as needed */
-  
-}
-
-.box1{
-    display: flex;
-    width: 50%;
-    height: 30%;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-  
-.red1{
-    background-color: red;
-}
-  
-.green2{
-    background-color: green;
-}
-  
-.yellow3{
-    background-color: yellow;
-}
-
-footer {
-    text-align: center;
-}
-
-blockquote {
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    color: blueviolet;
-    background-color: crimson;
-}
-
-footer {
-    font-family: "Monoton", sans-serif;
-    color: blueviolet;
-    font-weight: 400pt;
-    font-style: normal;
-    border-radius: 200%;
-}
-
-footer:hover {
-    background-color: greenyellow;
-}
+/* Ensure existing styles for .fon1, .fon2, etc. are preserved */
